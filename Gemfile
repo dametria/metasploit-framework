@@ -6,7 +6,7 @@ gemspec name: 'metasploit-framework'
 # separate from test as simplecov is not run on travis-ci
 group :coverage do
   # code coverage for tests
-  gem 'simplecov', '>= 0.18.2'
+  gem 'simplecov', '0.22.0'
 end
 
 group :development do
